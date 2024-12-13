@@ -1,5 +1,6 @@
 node
 {
+  properties([buildDiscarder(logRotator(artifactDaysToKeepStr: '5', artifactNumToKeepStr: '5', daysToKeepStr: '5', numToKeepStr: '5')), pipelineTriggers([pollSCM('* * * * *')])])  
    def mavenHome=tool name: "maven-3.9.9"
    stage('checkout')
    {
@@ -21,7 +22,8 @@ node
    {
       sshagent(['30d02787-8bd0-4b68-b76a-2dee9cb5358b'])
       {
-           sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@52.66.249.15:/opt/apache-tomcat-9.0.97/webapps/"
+           sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@65.2.127.133:/opt/apache-tomcat-9.0.97/webapps/"
+
       }
 } 
    
