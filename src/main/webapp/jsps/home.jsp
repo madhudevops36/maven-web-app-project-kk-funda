@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to KK FUNDA AWS DEVOPS </h1>
+<h1 align="center">Welcome to KK FUNDA AWS DEVOPS Training </h1>
 <h1 align="center"> KK FUNDA AWS DEVOPS CLASSES</h1>
 <hr>
 <br>
