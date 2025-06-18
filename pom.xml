@@ -93,22 +93,17 @@
 		
 	</dependencies>
 	
-	<distributionManagement>
-	
-<repository>
-  <id>nexus-release</id>
-  <name>KK FUNDA Releases Nexus Repository</name>
-  <url>http://65.2.71.216:8081/repository/HCL-release/</url>
-</repository>
+<distributionManagement>
+  <snapshotRepository>
+    <id>nexus-snapshot</id>
+    <url>http://65.2.71.216:8081/repository/HCL-snapshot/</url>
+  </snapshotRepository>
+  <repository>
+    <id>nexus-release</id>
+    <url>http://65.2.71.216:8081/repository/HCL-release/</url> <!-- adjust as needed -->
+  </repository>
+</distributionManagement>
 
-<snapshotRepository>
-  <id>nexus-snapshot</id>
-  <name>KK FUNDA Snapshot Nexus Repository</name>
-  <url>http://65.2.71.216:8081/repository/HCL-snapshot/</url>
-</snapshotRepository>
-
-	    
-	</distributionManagement>
 	
 	<build>
 		<finalName>maven-web-application</finalName>
