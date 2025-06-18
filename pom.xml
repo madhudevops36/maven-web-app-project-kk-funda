@@ -99,12 +99,14 @@
     <name>KK FUNDA Releases Nexus Repository</name>
     <url>http://65.2.71.216:8081/repository/flipkart-release/</url>
   </repository>
+
   <snapshotRepository>
     <id>nexus-snapshot</id>
     <name>KK FUNDA Snapshot Nexus Repository</name>
     <url>http://65.2.71.216:8081/repository/flipkart-snapshot/</url>
   </snapshotRepository>
 </distributionManagement>
+
 
 
 	
