@@ -98,13 +98,13 @@
 <repository>
   <id>nexus-release</id>
   <name>KK FUNDA Releases Nexus Repository</name>
-  <url>http://65.2.71.216:8081/repository/airtel-release/</url>
+  <url>http://65.2.71.216:8081/repository/HCL-release/</url>
 </repository>
 
 <snapshotRepository>
   <id>nexus-snapshot</id>
   <name>KK FUNDA Snapshot Nexus Repository</name>
-  <url>http://65.2.71.216:8081/repository/airtel-snapshot/</url>
+  <url>http://65.2.71.216:8081/repository/HCL-snapshot/</url>
 </snapshotRepository>
 
 	    
